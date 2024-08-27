@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-family: "Montserrat", 'Courier New', Courier, monospace;
+}
+
+header {
+    width: 100%;
+    padding: 2% 0;
+    background-color: #0a192f;
+    border-bottom: 2px solid #52c6b4;
+}
+
+.header-logo {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header-links {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#picture-profile {
+    border-radius: 100%;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #52c6b4;
+    transition: color 2s;
+}
+
+main {
+    padding: 5% 0;
+    background-color: #254c86;
+}
+
+section {
+    padding: 5% 15%;
+}
+
+section h2 {
+    text-align: center;
+}
+
+h3 {
+    color: #52c6b4;
+}
+#projetos{
+    display: grid;
+    justify-items: center;
+}
+section p {
+    max-width: 70%;
+}
+.carousel{
+    width: 100%;
+    overflow: hidden;
+    width: 277px;
+    height: 250px;
+}
+#container_projects{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+    object-fit: cover;
+    width: 200px;
+    height: 100px;
+}
+.buttonProject{
+    display: inline;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+.projectUnselected{
+    background-color: #d4d4d4;
+}
+.projectUnselected:hover{
+    background-color: #a5a5a5;
+}
+.projectSelected{
+    background-color: black;
+}
+input,
+textarea {
+    display: block;
+    margin-bottom: 2%;
+}
+
+#contato button {
+    background-color: #479447;
+    color: white;
+    border-radius: 2px;
+    padding: 2px;
+}
+
+#contato button:hover {
+    background-color: #73cc73;
+}
+
+footer {
+    text-align: center;
+    padding: 2% 0;
+    background: #0a192f;
+    color: #fff;
+    border-top: 2px solid #52c6b4;
+}
