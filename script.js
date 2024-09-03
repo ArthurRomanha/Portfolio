@@ -41,5 +41,3 @@
 //     btnRelativeAtTheProject.classList.remove("projectUnselected");
 //     interval = setInterval(carousel, 4000);
 // }
-const html = document.querySelector("html");
-    console.log(html.offsetWidth);
