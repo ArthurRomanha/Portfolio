@@ -11,46 +11,57 @@
 </head>
 
 <body>
-    
-<header>
-    <div class="container-header">
-        <div class="header-logo">
-            <a href="index.html"><img src="img/pictureProfile.jpg" id="picture-profile"></a>
-            <a href="index.html">Arthur Romanha</a>
-        </div>
-        <div class="header-links links">
-            <div class="menu-hamburguer">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
+
+    <header>
+        <div class="container-header">
+            <div class="header-logo">
+                <a href="index.html"><img src="img/pictureProfile.jpg" id="picture-profile"></a>
+                <a href="index.html">Arthur Romanha</a>
             </div>
-            <nav>
-                <ul class="nav-list">
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#servicos">Serviços</a></li>
-                    <li><a href="#projetos">Projetos</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-            </nav>
+            <div class="header-links links">
+                <div class="menu-hamburguer">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <nav>
+                    <ul class="nav-list">
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-    </div>
-</header>
-<!-- 
+    </header>
+
     <main>
         <section id="sobre">
-            <h2>Hello! My name is Arthur</h2>
-            <p>I am sixteen years old and I study ADS, actually at the second year.</p>
+            <h1>Sobre</h1>
+            <h3>Hello! My name is Arthur</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra maximus erat auctor
+                sagittis. Mauris ultrices sed lectus quis lacinia. Donec at lacus auctor, euismod ex ut, ultricies
+                augue. Suspendisse ac diam ac enim porta viverra sed quis ex. Suspendisse mattis, diam a faucibus
+                convallis, nisl velit pharetra erat, vitae lobortis metus odio et purus. Sed hendrerit sagittis felis in
+                malesuada. In eget velit sit amet elit sagittis maximus. Donec fringilla, metus eget facilisis euismod,
+                quam risus mollis sapien, quis efficitur sem erat vel lectus. Duis dignissim orci ut elit bibendum, vel
+                elementum massa viverra. In luctus lacinia varius. Mauris dignissim aliquet magna. Nulla facilisi. Nam
+                vestibulum arcu tincidunt nibh cursus, quis varius nunc finibus.</p>
         </section>
+
         <section id="servicos">
-            <h2>Serviços:</h2>
+            <h1>Serviços:</h1>
             <ul>
                 <li>Desenvolvimento de Websites</li>
                 <li>Design Responsivo</li>
                 <li>Otimização de Performance</li>
             </ul>
         </section>
-        <section id="projetos">
-            <h2>Projects:</h2>
+
+        <!-- <section id="projetos">
+
+            <h3>Projects:</h3>
             <div class="carousel">
                 <div id="container_projects">
                     <div class="project">
@@ -76,13 +87,13 @@
                 <button class="buttonProject projectUnselected" onclick="showProject(0)" id="project1"></button>
                 <button class="buttonProject projectUnselected" onclick="showProject(1)" id="project2"></button>
                 <button class="buttonProject projectUnselected" onclick="showProject(2)" id="project3"></button>
-                <button class="buttonProject projectUnselected" onclick="showProject(3)" id="project4"></button>
+ <button class="buttonProject projectUnselected" onclick="showProject(3)" id="project4"></button> 
             </div>
 
-        </section>
-
+        </section> -->
+        
         <section id="contato">
-            <h2>Contato:</h2>
+            <h1>Contato:</h1>
             <form action="/submit" method="post">
                 <label for="name">Nome:</label>
                 <input type="text" id="name" required>
@@ -93,16 +104,16 @@
                 <label for="message">Message:</label>
                 <textarea type="text" id="message" required></textarea>
 
-                <button type="submit">Send</button>
+                <button type="submit" class="submit">Send</button>
             </form>
 
         </section>
     </main>
     <footer>
         <p>&copy; 2024 Arthur. Todos os direitos reservados.</p>
-    </footer>-->
+    </footer>
     <script src="script.js"></script>
     <script src="mobile-menu.js"></script>
-</body> 
+</body>
 
 </html>
