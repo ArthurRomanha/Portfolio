@@ -17,9 +17,12 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: #325486;
+    display: grid;
+    grid-template-rows: 20% 40% 20%;
 }
 
 header {
+    grid-row: 1;
     width: 100%;
     padding: 2% 0;
     height: 9%;
@@ -133,6 +136,7 @@ a {
     }
 }
 main{
+    grid-row: 2;
     display: grid;
     width: 100%;
     grid-template-columns: 10% 80% 10%;
@@ -175,6 +179,7 @@ input, textarea{
     width:100%;
 }
 footer {
+    grid-row: 3;
     display: grid;
     width: 100vw;
     height: 20vh;
